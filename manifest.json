@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Hello Meet",
+    "version": "1.0",
+    "description": "A simple Google Meet add-on that displays a 'Hello' message.",
+    "icons": {
+      "128": "icon.png"
+    },
+    "api_console_project_id": "cohesive-slate-418602",
+    "container": ["meet"],
+    "event_bindings": [
+      {
+        "event_name": "onApiReady",
+        "event_triggers": [
+          {
+            "trigger_on_load": true
+          }
+        ]
+      }
+    ]
+  }
+  
